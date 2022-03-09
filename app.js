@@ -28,6 +28,12 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
 }
 
-function myfunmyFunction() {
-    document.getElementById
+function openWindow() {
+    window.open("", "index", "width=200, height=100");
 }
+
+function closeWindow() {
+    window.close("", "index.html", "width=200, height=100");
+}
+
+
